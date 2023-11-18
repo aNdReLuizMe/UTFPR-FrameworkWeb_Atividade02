@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Caixa Eletrônico</title>
+   <link rel="stylesheet" href="atividade-02.css">
+</head>
+
+<body>
+   <div>
+      <h1>Caixa Eletrônico</h1>
+      <label for="saque">Informe o valor a ser sacado:</label>
+      <div>
+         <input type="text" inputmode="numeric" class="first-input" placeholder="Digite um valor de 10 a 600" id="saque"
+            name="saque" step="1" min="10" max="600">
+      </div>
+      <div>
+         <button id="enviar" class="button">Enviar</button>
+      </div>
+      <div id="saida"></div>
+   </div>
+   <script src="atividade-02.js"></script>
+</body>
+
+</html>
